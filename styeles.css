@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Quicksand:wght@300..700&display=swap');
+html.main{
+    background-image: url(7756629.jpg);
+}
+/* Global styles */
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    min-height: 80vh;
+    width: 80%;
+    color: white;
+    align-items: center;
+}
+#bankSelect{
+    border-radius: 10px;
+    background-color: gray;
+    border: blueviolet solid 2px ;
+    color: beige;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    align-items:center;
+}
+input{
+    border-radius: 10px;
+    background-color: gray;
+    border: blueviolet solid 2px ;
+    color: beige;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+h1 {
+    text-align: center;
+}
+a.add{
+    font-size: 22px;
+    text-decoration: none;
+    color: beige;
+    margin: 5px;
+    padding: 8px;
+    border: 2px solid blueviolet;
+    text-align: center;
+    background-color: rgb(14, 0, 63,0.3);
+    width: 200px;
+    transition: all 0.3s ease;
+}
+a.add:hover{
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    background-color: blueviolet;
+}
+
+/* Form styles */
+form {
+    margin-bottom: 10px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+form input[type="text"],
+form input[type="email"],
+form input[type="date"],
+form input[type="number"],
+form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+a#back{
+    position: absolute;
+    left: 10px; 
+    padding: 5px;
+    font-size: 20px;
+    color: rgb(12, 5, 5);
+    background-color: rgb(48, 48, 48);
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+a#back:hover{
+    position: absolute;
+    left: 10px;
+    padding: 5px;
+    font-size: 22px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+form button[type="submit"],
+form button[type="reset"] {
+    padding: 10px 20px;
+    width: 200px;
+    font-size: 22px;
+    border-radius: 8px;
+    background-color: blueviolet;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    
+}
+
+form button[type="submit"]:hover,
+form button[type="reset"]:hover {
+    background-color:purple;
+    font-size: 20px;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #0f0044;
+    border-radius: 10px;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #573b3b;
+}
+ button{
+    background-color: blueviolet;
+ }
+.payment{
+    display: flex;;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Anta&family=Madimi+One&family=Quicksand:wght@300..700&display=swap');
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 60vh;
+        }
+        *{
+            font-family: sans-serif;
+            text-align: center;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+            font-size: 22px;
+            transition: all 0.3s ease;
+        }
+        a:hover{
+            color: blueviolet;
+            text-decoration:line-through ;
+            font-size: 22px;
+        }
+        li{
+            list-style: none;
+            font-size: 20px;
+            margin-bottom: 80px;
+        }
+        .container{
+            padding-top: 100px;
+            padding-bottom: 30px;
+            padding-left: 10px;
+            padding-right: 10px;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            background-color: rgba(5, 0, 82, 0.5); 
+            justify-content: center;/* Red color with 50% opacity */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <li><a href="deletecustomer.html" target="middle-screen">add customer</a></li>
+    <li><a href="deletecustomer.html" target="middle-screen">delete a customer</a></li>
+    <li><a href="customerlist.html" target="middle-screen">customer list</a></li>
+    </div>
+</body>
+</html>
